@@ -6,17 +6,6 @@
 #include <string.h>
 #include <unistd.h>
 
-/**
- * struct s_type - Structure
- * @args: pointer arguments
- * @func: pointer function
- */
-typedef struct f_type
-{
-  char *args;
-  int (*func)(va_list);
-} f_type;
-
 int _putchar(char c);
 int _printf(const char *format, ...);
 int (*_typefor(const char *argu, int argb))(va_list);
@@ -29,3 +18,4 @@ int print_R(va_list valist);
 int print_binary(va_list valist);
 
 #endif
+
