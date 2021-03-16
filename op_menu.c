@@ -22,7 +22,7 @@ while (array[i].s)
 {
 	if (array[i].s[0] == *s)
 	{
-		form = aray[i].func;
+		form = array[i].func;
 		return (*(void **) (&form));
 	}
 	i++;
