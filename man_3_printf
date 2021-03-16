@@ -1,0 +1,32 @@
+.TH man 3 "15 MARCH 2021"  "_printf man page"
+.SH NAME
+.B _Printf
+- formatted output conversion.
+.SH SYNOPSIS
+.BI _printf
+.IR FORMAT [ARGUMENT]
+
+.BI _printf
+
+.SH DESCRIPTION
+Printf es una función especial porque recibe un número variable de parámetros. El primer parámetro es fijo y es la cadena de formato. Incluye texto para ser impreso literalmente y marcas para ser reemplazadas por texto que se obtiene de los parámetros adicionales. Por lo tanto,
+Se llama a printf con tantos parámetros como marcas haya en la cadena de formato más una (la cadena de formato en sí).
+
+.SH
+Si se devuelve correctamente, devuelve el número de caracteres impresos (excluyendo el byte nulo utilizado para finalizar la salida a cadenas).
+
+.SH Format
+% indicates a form to be written.
+.SH Flags
+.SH %c
+Prints a character. / Imprime un caracter
+.SH %s
+Prints a string. / Imprime una cadena
+.SH %d
+Prints a integer. / Imprime un entero
+.SH %i
+Prints a integer. ¨¨
+.SH BUGS
+Muchos, pero Diosito nos ayuda desde arriba y se que funcionara.
+.SH AUTHORS
+JUAN SEBASTIAN TOVAR @juanst_2911, SERGIO MONROY @sergiom87594976, JOEL SILVA @DiyeiJowell.
