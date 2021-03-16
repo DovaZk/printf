@@ -7,29 +7,24 @@
  */
 int _printf(const char *format, ...)
 {
-	char buffer[1024];
+	char buffer[2024];
+	int i;
+	char c;
 
 	int (*form)(va_list);
 
-	strcopy(buffer, format);
-
-	int lent;
-
-	lent = strle(buffer);
-
-	int i = 0;
-	char c;
-
 	va_list lista;
+
+	strcopy(buffer, format);
 
 	va_start(lista, format);
 
-	for (; i < (lent - 1); i++)
+	for (i = 0; buffer[i]; i++)
 	{
 		if (buffer[i] == '%')
 		{
 			i++;
-			form = op_menu((buffer + i), lista);
+			*(void **) (&form) = op_menu((buffer + i), lista);
 			form(lista);
 		}
 		else
@@ -40,5 +35,5 @@ int _printf(const char *format, ...)
 	}
 
 	va_end(lista);
-	return (lent);
+	return (strle(buffer));
 }
