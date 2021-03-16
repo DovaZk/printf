@@ -13,7 +13,10 @@ int _printf(const char *format, ...)
 
 	strcopy(buffer, format);
 
-	int lent = strle(buffer);
+	int lent;
+
+	lent = strle(buffer);
+
 	int i = 0;
 	char c;
 
@@ -21,7 +24,7 @@ int _printf(const char *format, ...)
 
 	va_start(lista, format);
 
-	for (; buffer[i]; i++)
+	for (; i < (lent - 1); i++)
 	{
 		if (buffer[i] == '%')
 		{
