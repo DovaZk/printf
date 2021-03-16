@@ -1,0 +1,23 @@
+.TH man 3 "15 MARCH 2021"  "_printf man page"
+.SH NAME
+.B _Printf
+- formatted output conversion.
+.SH SYNOPSIS
+.BI _printf
+.IR FORMAT [ARGUMENT]
+
+.BI _printf
+.IR OPTION
+
+.SH DESCRIPTION
+description
+
+.SH Format
+% indicates a form to be written.
+.SH Flags
+.SH %c
+Prints a character.
+.SH BUGS
+Muchos, pero Diosito nos ayuda desde arriba y se que funcionara.
+.SH AUTHORS
+JUAN SEBASTIAN TOVAR @juanst_2911, SERGIO MONROY @sergiom87594976, JOEL SILVA @DiyeiJowell.
