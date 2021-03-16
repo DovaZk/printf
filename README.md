@@ -1,3 +1,8 @@
+
+
+<p align="center"><img src="https://i.pinimg.com/originals/ec/c8/ac/ecc8ac28b4af19aad4f594be84abb4c2.jpg"/></p> 
+
+
 # Printf Proyect 🚀
 
 este proyecto desarrollaremos la actividad 0x11. C - printf de la escuela Holberton. En el que tuvimos que desarrollar un printf con todas sus características; incluyendo tipo de formato, modificadores de longitud, etc.
