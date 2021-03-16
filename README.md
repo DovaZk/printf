@@ -1,14 +1,14 @@
-# Printf Proyect
+# Printf Proyect 🚀
 
 este proyecto desarrollaremos la actividad 0x11. C - printf de la escuela Holberton. En el que tuvimos que desarrollar un printf con todas sus características; incluyendo tipo de formato, modificadores de longitud, etc.
 
 
-## Construido con
+## Construido con 🛠️
 
 * Ubuntu Linux and Emacs :V
 
 
-## Autores 
+## Autores ✒️
 
 * **Juan Sebastian Tovar** - [juanstm200](https://github.com/juanstm200)
 * **Sergio Monroy** - [giosermon](https://github.com/giosermon)
@@ -16,7 +16,7 @@ este proyecto desarrollaremos la actividad 0x11. C - printf de la escuela Holber
 
 
 
-## Expresiones de Gratitud 
+## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 
 * Invita una cerveza  o un café  a alguien del equipo. 
