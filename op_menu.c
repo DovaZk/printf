@@ -16,15 +16,16 @@ void *op_menu(char *s, ...)
 	};
 
 int i = 0;
+void (*form)(va_list);
 
 while (array[i].s)
 {
 	if (array[i].s[0] == *s)
 	{
-		return (array[i].func);
+		form = aray[i].func;
+		return (*(void **) (&form));
 	}
 	i++;
 }
-
 return (0);
 }
