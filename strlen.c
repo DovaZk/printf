@@ -2,6 +2,7 @@
 /**
  *strle - function
  *@str: cadena
+ *Return: i - 1.
  */
 int strle(char *str)
 {
