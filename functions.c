@@ -8,7 +8,8 @@
 void pchar(va_list charl)
 {
 	char p = va_arg(charl, int);
-		_putchar(p);
+
+	_putchar(p);
 }
 /**
  * pstring - print string.
@@ -18,13 +19,14 @@ void pchar(va_list charl)
 void pstring(va_list charl)
 {
 	char *str = va_arg(charl, char *);
+
 	int i = 0;
 
 	for (; str[i]; i++)
 	{
-	if (str != NULL)
-	{
-	_putchar(str[i]);
-	}
+		if (str != NULL)
+		{
+			_putchar(str[i]);
+		}
 	}
 }
